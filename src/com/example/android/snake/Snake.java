@@ -71,6 +71,7 @@ public class Snake extends Activity {
     protected void onPause() {
         super.onPause();
         // Pause the game along with the activity
+        // new comment onPause for commit test
         mSnakeView.setMode(SnakeView.PAUSE);
     }
 
